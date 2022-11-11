@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Fira+Sans:ital,wght@1,100;1,900 & family= Merriweather:ital,wght@1,900 & family= Roboto:ital,wght@1.900 & display=swap');
+body{
+    background-color: black;
+    background-size: cover;
+    color:white
+}
+
+.foto{
+    margin-left: 25%;
+}
+
+.palco{
+    margin-left: 12%;
+}
+
+.topo{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    font-size: 45px;
+}
+#menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 16px;
+    font-size: 30px;
+}
+
+.paragrafo{
+    text-align: center;
+    font-size: 25px;
+}
+.txt{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    padding: 5px;
+    margin:10px;
+    font-size: 30px;
+}
+.txt h3{
+    font-size: 30px;
+    margin-left: 27%;
+    text-align: left;
+    margin-top: 10px;
+    margin: 0;
+
+}
+.img1{
+    display: flex;
+}
+.data{
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+}
+.hora{
+    display: flex;
+    font-size:30px;
+    margin: 10px;
+
+}
+.hora img{
+    margin: 5px;
+    margin-top: -13px;
+}
+#container{
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#local{
+    display: flex;
+    margin-left: 33%;
+    margin-top: -40px;
+
+
+}
+.b{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px
+}
+
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+.pagamento{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#botao{
+    text-align: center;
+    background-color:green;
+    color:white;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid white;
+    border-radius: 5px;
+    height:60px;
+    width: 300px;
+    
+}
+.cartao{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
